@@ -8,16 +8,10 @@ body{
 .header{
     background-color: rgb(42, 48, 66);
     width: 100%;
-    height: calc(60px + 1vh);;
+    height: calc(1px + 8vh);
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: sticky;
-    top: 0;
-}
-.sticky{
-    position: sticky;
-    top: 0;
 }
 .logo img{
     width: calc(120px + 1vw);
@@ -27,7 +21,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: calc(10px + 0.5vw);
+    gap: calc(10px + 1vw);
     height: 10vh;
     width: calc(100px + 1vw);
 }
@@ -56,13 +50,12 @@ body{
 }
 .profilebox{
     background-color: rgb(42, 48, 66);
-    width: calc(60px + 13vw);
-    overflow: hidden;
+    width: 5vw;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
-    gap: 5px;
+    gap: 10px;
 
 }
 .profilebox img{
