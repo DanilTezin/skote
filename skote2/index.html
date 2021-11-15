@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="sticky">
+        <div class="header">
+                <div class="logo"><img src="./img/logo.png" alt=""></div>
+                <div class="navbar">
+                    <div class="bell"><a href=""><i class="far fa-bell"></i></a></div>
+                    <div class="contact">
+                        <div class="dropdown1">
+                            <button class="dropbtn">
+                            <div id="panel" class="profilebox" onclick="vis();">
+                                <img src="./img/avatar.jpg" alt="">
+                                <div class="name">Henryыаываывававыав</div>
+                            </div>
+                            </button>
+                            <div id="drop" class="dropdown-content10">
+                                <a href="#">
+                                    <i class="far fa-user"></i>
+                                    Profile
+                                </a>
+                                <a href="#" class="ddlogin">
+                                    <i class="far fa-times-circle"></i>
+                                    Logout
+                                </a>
+                            </div>      
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="menu">
+            <div class="navigation">
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <div class="dashboards">
+                            <div class="homeicon">                           
+                                <i class="fas fa-home"></i>
+                                <div class="textdashboards">Dashboards</div>
+                                <i class="arrow fas fa-chevron-down"></i>
+                            </div>            
+                        </div>
+                    </button>
+                    <div class="dropdown-content">
+                    <a href="#">Default</a>
+                    <a href="#">Saas</a>
+                    <a href="#">Crypto</a>
+                    <a href="#">Blog</a>
+                    </div>
+                </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                <div class="apps">
+                                    <div class="QRicon">
+                                        <i class="fas fa-qrcode"></i>       
+                                    </div>
+                                    <div class="textdashboards">Apps</div>
+                                    <i class="arrow fas fa-chevron-down"></i>
+                                </div>
+                            </button>
+                            <div class="dropdown-content">
+                                <div class="dropdown2">
+                                    <button class="dropbtn2">
+                                        <div class="but">
+                                            <div class="linkdropd">Calendar</div> 
+                                            <div class="arrowdropd"><i class="fal fa-chevron-right"></i></div>
+                                        </div>   
+                                    </button>
+                                    <div class="dropdown-content2">
+                                        <a href="#">TUI Calendar</a>
+                                        <a href="#">Full Calendar</a>
+                                    </div>
+                                </div>       
+                            <a href="#">Chat</a>
+                            <a href="#">File Manager</a>
+                            <div class="dropdown2">
+                                <button class="dropbtn2">
+                                    <div class="but">
+                                        <div class="linkdropd">Email</div> 
+                                        <div class="arrowdropd"><i class="fal fa-chevron-right"></i></div>
+                                    </div>   
+                                </button>
+                                <div class="dropdown-content2">
+                                    <a href="#">Inbox</a>
+                                    <a href="#">Read Email</a>
+                                    <div class="dropdown3">
+                                        <button class="dropbtn3">
+                                            <div class="but">
+                                                <div class="linkdropd">Teamplates</div> 
+                                                <div class="arrowdropd"><i class="fal fa-chevron-right"></i></div>
+                                            </div>   
+                                        </button>
+                                        <div class="dropdown-content3">
+                                            <a href="#">Basic Action</a>
+                                            <a href="#">Alert Email</a>
+                                            <a href="#">Billing Email</a>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div> 
+                            <div class="dropdown2">
+                                <button class="dropbtn2">
+                                    <div class="but">
+                                        <div class="linkdropd">Ecommerce</div> 
+                                        <div class="arrowdropd"><i class="fal fa-chevron-right"></i></div>
+                                    </div>   
+                                </button>
+                                <div class="dropdown-content2">
+                                    <a href="#">Products</a>
+                                    <a href="#">Product Detail</a>
+                                    <a href="#">Orders</a>
+                                    <a href="#">Customers</a>
+                                    <a href="#">Cart</a>
+                                    <a href="#">Checkout</a>
+                                    <a href="#">Shops</a>
+                                    <a href="#">Add Product</a>
+                                </div>
+                            </div>       
+                            <div class="dropdown2">
+                                <button class="dropbtn2">
+                                    <div class="but">
+                                        <div class="linkdropd">Crypto</div> 
+                                        <div class="arrowdropd"><i class="fal fa-chevron-right"></i></div>
+                                    </div>   
+                                </button>
+                                <div class="dropdown-content2">
+                                    <a href="#">Wallet</a>
+                                    <a href="#">Buy/Sell</a>
+                                    <a href="#">Exchange</a>
+                                    <a href="#">Landing</a>
+                                    <a href="#">Orders</a>
+                                    <a href="#">KYC Application</a>
+                                    <a href="#">ICO Landing</a>
+                                </div>
+                            </div>       
+                            <div class="dropdown2">
+                                <button class="dropbtn2">
+                                    <div class="but">
+                                        <div class="linkdropd">Projects</div> 
+                                        <div class="arrowdropd"><i class="fal fa-chevron-right"></i></div>
+                                    </div>   
+                                </button>
+                                <div class="dropdown-content2">
+                                    <a href="#">Projects Grid</a>
+                                    <a href="#">Projects List</a>
+                                    <a href="#">Projects Overview</a>
+                                    <a href="#">Create New</a>
+                                </div>
+                            </div>   
+                            <div class="dropdown2">
+                                <button class="dropbtn2">
+                                    <div class="but">
+                                        <div class="linkdropd">Tasks</div> 
+                                        <div class="arrowdropd"><i class="fal fa-chevron-right"></i></div>
+                                    </div>   
+                                </button>
+                                <div class="dropdown-content2">
+                                    <a href="#">Task List</a>
+                                    <a href="#">Kanban Board</a>
+                                    <a href="#">Create Task</a>
+                                </div>
+                            </div>   
+                            <div class="dropdown2">
+                                <button class="dropbtn2">
+                                    <div class="but">
+                                        <div class="linkdropd">Contacts</div> 
+                                        <div class="arrowdropd"><i class="fal fa-chevron-right"></i></div>
+                                    </div>   
+                                </button>
+                                <div class="dropdown-content2">
+                                    <a href="#">User Grid</a>
+                                    <a href="#">User List</a>
+                                    <a href="#">Profile</a>
+                                </div>
+                            </div>   
+                            <div class="dropdown2">
+                                <button class="dropbtn2">
+                                    <div class="but">
+                                        <div class="linkdropd">Blog</div> 
+                                        <div class="arrowdropd"><i class="fal fa-chevron-right"></i></div>
+                                    </div>   
+                                </button>
+                                <div class="dropdown-content2">
+                                    <a href="#">Blog List</a>
+                                    <a href="#">Blog Grid</a>
+                                    <a href="#">Blog Details</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blocks">
+        <div class="block1">
+            <div class="label">Social Source</div>
+            <div class="facelogo"><i class="fab fa-facebook"></i></div>
+            <div class="labeltext">Facebook - 125 sales</div>
+            <div class="labelinfo">Maecenas nec odio et ante tincidunt tempus.</div>
+            <div class="labelinfo">Donec vitae sapien ut libero venenatis</div>
+            <div class="labelinfo">faucibus tincidunt.</div>
+            <div class="learnmore"><a href="">Learn more</a></div>
+            <div class="messendger">
+                <div class="facebook">
+                    <div class="facebookicon"><i class="fab fa-facebook"></i></div>
+                    <div class="labelmessendger">Facebook</div>
+                    <div class="salesmessendger">125 sales</div>
+                </div>
+                <div class="twitter">
+                    <div class="twittericon"><i class="fab fa-twitter"></i></div>
+                    <div class="labelmessendger">Twitter</div>
+                    <div class="salesmessendger">112 sales</div>
+                </div>
+                <div class="instagram">
+                    <div class="insticon"><i class="fab fa-instagram"></i></div>
+                    <div class="labelmessendger">Instagram</div>
+                    <div class="salesmessendger">104 sales</div>
+                </div>
+            </div>
+        </div>
+        <div class="block2">
+            <div class="label">Activity</div>
+            <div class="containers">
+                <div class="firstconteiner">
+                    <div class="arrowcont"><i class="far fa-arrow-alt-circle-right"></i></div>
+                    <div class="data">22 Nov</div>
+                    <div class="secarrowcont"><i class="fas fa-long-arrow-alt-right"></i></div>
+                    <div class="content">Responded to need “Volunteer Activities</div>
+                </div>
+                <div class="firstconteiner">
+                    <div class="arrowcont"><i class="far fa-arrow-alt-circle-right"></i></div>
+                    <div class="data">17 Nov</div>
+                    <div class="secarrowcont"><i class="fas fa-long-arrow-alt-right"></i></div>
+                    <div class="content">Everyone realizes why a new common language would be desirable... <a href="">Read more</a></div>
+                </div>
+                <div class="firstconteiner">
+                    <div class="arrowcont"><i class="far fa-arrow-alt-circle-right"></i></div>
+                    <div class="data">15 Nov</div>
+                    <div class="secarrowcont"><i class="fas fa-long-arrow-alt-right"></i></div>
+                    <div class="content">Joined the group “Boardsmanship Forum”</div>
+                </div>
+                <div class="firstconteiner">
+                    <div class="arrowcont"><i class="far fa-arrow-alt-circle-right"></i></div>
+                    <div class="data">12 Nov</div>
+                    <div class="secarrowcont"><i class="fas fa-long-arrow-alt-right"></i></div>
+                    <div class="content">Responded to need “In-Kind Opportunity”</div>
+                </div>
+            </div>
+            <div class="button"><a href="">View More</a></div>
+        </div>
+        <div class="block3">
+            <div class="label">Top Cities Selling Product</div>
+            <div class="mapmarker"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="labeltext">1,456</div>
+            <div class="labelinfo">San Francisco</div>
+            <div class="informstats">
+                <div class="sanfran">
+                    <div class="namesf">San Francisco</div>
+                    <div class="number">1,456</div>
+                    <div class="hr1"><hr></div>
+                </div>
+                <hr class="prhr">
+                <div class="sanfran">
+                    <div class="namela">Los Angeles</div>
+                    <div class="numberla">1,123</div>
+                    <div class="hr2"><hr></div>
+                </div>
+                <hr  class="prhr">
+                <div class="sanfran">
+                    <div class="namesd">San Diego</div>
+                    <div class="numbersd">1,026</div>
+                    <div class="hr3"><hr></div>
+                </div>
+            </div>
+        </div>      
+    </div>
+</body>
+</html>
