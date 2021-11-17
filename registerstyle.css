@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(246, 246, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registerform{
+    padding-top: 80px;
+    width: calc(30vw+10vw);
+}
+.forminputs{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo-reg{
+    display: flex;
+    background-color: rgb(42, 48, 66);
+}
+.headertext{
+    padding: 24px;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+}
+.textlogo{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+}
+.text{
+    margin-bottom: 5px;
+    color: #495057;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+}
+.inputs{
+    padding-top: 20px;
+    width: 90%;
+}
+.inputs input{
+    color: #495057;
+    width: 100%;
+    border: 1px solid #495057;
+    border-radius: 5px;
+    height: 30px;
+}
+input::placeholder{
+    color: #495057;
+    padding-left: 10px;
+}
+.buttregist{
+    width: 90%;
+    height: 30px;
+    background-color: rgb(42, 48, 66);
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    border: 1px solid rgb(42, 48, 66);
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sinupusing{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #495057;
+    padding: 10px 0px;
+}
+.massenger{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 7px;
+}
+.massenger i{
+    color: white;
+    padding: 10px;
+    font-size: 9px;
+    background-color: blue;
+    border: 1px solid rgba(20, 49, 138, 0.274);
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.twittericon i{
+    background-color: rgb(72, 130, 236);
+}
+.insticon i{
+    background-color: rgb(245, 39, 73);
+}
+.forminfo{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 11px;
+    color: #495057;
+    padding: 20px 20px;
+}
+.forminfo a{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 11px;
+    color: #556ee6;
+    padding: 20px 0px;
+    text-decoration: none;
+}
