@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script src="index.js"></script>
@@ -222,15 +223,35 @@
                         <option value="">Large select</option>
                         <option value="">Small select</option>
                     </select>
-                    <textarea name="textarea" placeholder="Введите текст" id="txtarea"></textarea>
+                    <div >
+                        <div class="buttons">
+                            <button class="buttonsta" onclick="setValueTextArea(event, 'bold')">bold</button>
+                            <button class="buttonsta" onclick="setValueTextArea(event, 'italic')">italic</button>
+                            <button class="buttonsta" onclick="setValueTextArea(event, 'underline')">underline</button>
+                            <button class="buttonsta" onclick="setValueTextArea(event, 'strikeThrough')">strike</button>
+                            <button class="buttonsta" onclick="setValueTextArea(event, 'clear')">clear styles</button>
+                        </div>
+                        
+                    <div id="text" contenteditable="true"></div>
+                    </div>
+                    
+                    <div class="butform">
+                        <button class="buttonform">Отправить</button>
+                    </div>
                 </div>
             </div>
-            <div class="butform">
-                <button class="buttonform">Отправить</button>
-            </div>
+            
         </div>
     </div>
     </div>
+
+    <script src="index.js"></script>
+    <script>
+
+        
+    </script>
 </body>
 
 </html>
+
+

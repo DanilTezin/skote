@@ -5,6 +5,27 @@
 body{
     background-color: rgb(246, 246, 250);
 }
+#text {
+    width : 95%;
+	min-height : 100px;
+	border : 1px solid ;
+}
+.buttons{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    
+}
+.buttonsta{
+    background-color: white;
+    border: 1px solid #495049;
+    padding: 3px 5px;
+    cursor: pointer;
+}
+.buttonsta + .active{
+    background-color: red;
+}
 .header{
     background-color: rgb(42, 48, 66);
     width: 100%;
@@ -359,7 +380,6 @@ flex-direction: row;
 }
 .contein{
     width: 70vw;
-    height: 240px;
     background-color: white;
     margin-top: 30px;
     display: flex;
@@ -370,11 +390,9 @@ flex-direction: row;
 }
 .butform{
     width: 100%;
-    height: 8vh;
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .buttonform{
     height: 4vh;
@@ -423,14 +441,14 @@ flex-direction: row;
     padding-right: calc(50vw + 0.3vw);
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: calc(5px + 0.5vw);
+    font-size: 14px;
     color: #495049;
 }
 #List option{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: calc(5px + 0.5vw);
+    font-size: 13px;
     color: #495049;
 }
 .inputs{
